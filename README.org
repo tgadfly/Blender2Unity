@@ -1,0 +1,21 @@
+* Blender2Unity Setup
+modified version of the gist
+[[https://gist.github.com/piranha771/e97c773fc050bc6387d36a080c4dd132][https://gist.github.com/piranha771/e97c773fc050bc6387d36a080c4dd132]]
+Thanks [[https://gist.github.com/piranha771][piranha771]] for sharing
+
+* How to Use
+just put FixFbxModelPostprocessor to Editor folder in your project
+
+* Known Issues
+doesn't work for normals and tangents, probably not working for animations
+
+* Test Case
+[[src.png]]
+Our initial hierarchy
+
+Export settings
+[[settings.png]]
+
+Result
+[[result_1.png]]
+[[result_2.png]]
